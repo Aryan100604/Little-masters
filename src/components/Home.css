@@ -1,0 +1,54 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.subject-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.subject-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+  color: black;
+}
+
+.subject-card:hover {
+  transform: scale(1.05);
+}
+
+.subject-card h3 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.subject-details {
+  text-align: center;
+  padding: 20px;
+}
+
+.chapters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.chapter-card {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  width: 180px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}

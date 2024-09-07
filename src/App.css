@@ -1,0 +1,110 @@
+/* src/App.css */
+
+/* Styling for subject cards */
+/* src/App.css */
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #282c34;
+  padding: 10px 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #61dafb;
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-item {
+  margin: 0 15px;
+}
+
+.navbar-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 20px;
+}
+
+.subjects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.subject-card {
+  background-color: #61dafb;
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 250px; /* Adjust width as needed */
+  text-align: center; /* Center text */
+}
+
+.subject-card h3 {
+  font-size: 20px; /* Increase font size */
+  margin-bottom: 10px;
+}
+
+.subject-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for subject details page */
+.subject-details {
+  padding: 20px;
+}
+
+.activities button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.activities button:hover {
+  background-color: #61dafb;
+}
